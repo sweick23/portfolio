@@ -55,18 +55,18 @@ body{
 }
 
 #main{
-    padding: 16px;
+  max-width: 1440px;
     transition: margin-left .5s;
 }
 .space{
     padding: 7.3%;
 }
 .header{
-    margin-top: -25px;
-    max-width: 1500px;
-    padding: 60px;
-    width: 100%;
-    height: 110%;
+    margin-top: -15px;
+    padding: 69px;
+    margin-left: -7px;
+    width: 101%;
+    height: 102%;
     background: url(https://cdn.pixabay.com/photo/2015/03/26/22/04/city-skyline-693493_1280.jpg);
     background-position: center;
     background-size: cover;
@@ -86,7 +86,22 @@ img{
     cursor: pointer;
     text-shadow: 2px 2px black;
     margin-left: 49%;
+    text-decoration: none;
 }
+
+.aboutMe{
+
+}
+.skill{
+
+}
+.projects{
+
+}
+.contact{
+    
+}
+
 
 
 
