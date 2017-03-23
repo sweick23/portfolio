@@ -90,16 +90,30 @@ img{
 }
 
 .aboutMe{
-
+width: 101%;
+margin-left: -7px;
+    height: 500px;
+    padding: 10px;
 }
 .skill{
-
+width: 101%;
+margin-left: -7px;
+    height: 500px;
+    padding: 10px;
 }
 .projects{
-
+width: 101%;
+margin-left: -7px;
+    height: 500px;
+    padding: 10px;
 }
 .contact{
-    
+width: 101%;
+margin-left: -7px;
+    height: 300px;
+    color: white;
+    background: black;
+    padding: 10px;
 }
 
 
