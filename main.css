@@ -50,24 +50,32 @@ body{
     cursor: pointer;
     margin-left: 93%;
     position: fixed;
+    color: #DDD;
+    text-shadow: 2px 2px black;
 }
 
 #main{
     padding: 16px;
     transition: margin-left .5s;
 }
-
+.space{
+    padding: 7.5%;
+}
 .header{
     margin-top: -25px;
     max-width: 1500px;
     padding: 60px;
     width: 100%;
-    height: 102%;
-    background: orangered;
+    height: 110%;
+    background: url(https://cdn.pixabay.com/photo/2015/03/26/22/04/city-skyline-693493_1280.jpg);
+    background-position: center;
+    background-size: cover;
 
 }
 h1{
     text-align: center;
+    color: #DDD;
+    text-shadow: 2px 2px black;
 }
 img{
     border-radius: 50%;
