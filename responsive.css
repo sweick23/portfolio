@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+.row {
+  max-width: 1000px;
+  
+  margin:  auto;
+}
+
+
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+
+
+.col-4{
+	float: left;
+	
+}
+
+.col-4{
+	width: 100%;
+	padding: 10px;
+	
+}
+
+
+@media only screen and (min-width: 640px){
+	
+	div.col-4{
+		width: 30%;
+	}
+
+	h1, h4{
+		margin-left: 11%;
+	}
+	
+}
