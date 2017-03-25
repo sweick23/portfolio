@@ -7,19 +7,18 @@
 <title>My Portfolio</title>
 </head>
 <body>
-    <div class="sidenav" id="mySidenav">
-<a href="#" class="closebtn" onclick="closeNav()">&times</a>
+  <div id="mySidenav" class="sidenav">
+<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
 <a href="#aboutMe">About</a>
 <a href="#skill">Skills</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
 </div>
-<span  class="opennav" onclick="openNav()">&#9776;</span>
-
-
     <div class="main" id="main">
-<div class="header">
 
+
+<div class="header">
+ <span style="font-size:30px;cursor:pointer" class="opennav" onclick="openNav()">&#9776;</span>
    <div class="space"></div>
     <img class="img" src="https://media.licdn.com/media/AAEAAQAAAAAAAAg5AAAAJDAxMjUzNDQwLTc0ZjMtNDhlNC04OGM2LTUxYjI2NGI2MTg4Ng.jpg" width="200">
 
@@ -32,7 +31,7 @@
 <h2>About</h2>
 <article>
 <p>Hi I am Shane, I am located in the Seatlle area. I am currently enrolled in Thinkful's full stack web developer bootcamp.
-    I have completed projects in HTML5, CSS3, JavaScript, jQuery and jQuery UI. 
+    I have completed projects in HTML5, CSS3, JavaScript, jQuery and jQuery UI.
 </p>
 </article>
 
@@ -85,10 +84,13 @@
 </div>
 <div class="contact" id="contact">
 <h2>Contact</h2>
-<a class="fa fa-codepen"></a>
-<a class="fa fa-github"></a>
-<a class="fa fa-linkedin"></a>
-<a class="fa fa-slack"></a>
+<ul class="contactList">
+<li><a href="https://codepen.io/Sweic23/" target="_blank" class="fa fa-codepen b"></a></li>
+<li><a href="https://github.com/sweick23" target="_blank" class="fa fa-github b"></a></li>
+<li><a href="https://www.linkedin.com/in/shane-weickum-b12390/" target="_blank" class="fa fa-linkedin b"></a></li>
+<li><a href="https://thinkful-students.slack.com/messages/@sweick23/team/sweick23/" target="_blank" class="fa fa-slack b"></a></li>
+
+</ul>
 </div>
     </div>
 <script src="app.js"></script>

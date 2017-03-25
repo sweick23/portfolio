@@ -4,41 +4,40 @@
 
 body{
 
-    max-width: 1500px;
+    max-width: 1350px;
     background: #DDD;
     font-family: sans-serif;
     transition: background-color .5s;
 }
 
-.sidenav{
+.sidenav {
+
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background: #111;
+    background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
-.sidenav a{
-    margin-left: 25px;
-    padding: 8px;
+.sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
-
+    transition: 0.3s
 }
 
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
 
-.sidenav .closebtn{
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -47,17 +46,18 @@ body{
 }
 
 .opennav{
-    font-size: 30px;
-    cursor: pointer;
-    margin-left: 93%;
-    position: fixed;
-    color: #DDD;
-    text-shadow: 2px 2px black;
+  margin-top: -2%;
+  margin-left: 89%;
+  position: fixed;
+}
+#main {
+    transition: margin-left .5s;
+
 }
 
 #main{
-  width: 1440px;
-    transition: margin-left .5s;
+  width: 1350px;
+
     position: absolute;
 }
 .space{
@@ -66,12 +66,12 @@ body{
 .header{
 
     margin-top: -15px;
-    padding: 69px;
-
-
-    width: 100%;
+    padding: 60px;
+    margin-left: -8px;
+    margin-right: -10px;
+    width: 97%;
     height: 101%;
-    background: url(https://cdn.pixabay.com/photo/2015/03/26/22/04/city-skyline-693493_1280.jpg) no-repeat;
+    background: url(https://static.pexels.com/photos/128944/pexels-photo-128944.jpeg) no-repeat;
     background-position: center;
     background-size: cover;
 
@@ -95,29 +95,29 @@ h1{
 
 .aboutMe{
 position: relative;
-width: 101%;
-margin-left: -7px;
+width: 100%;
+
     height: 100%;
     padding: 10px;
 }
 .skill{
     position: relative;
-width: 101%;
-margin-left: -7px;
+width: 100%;
+
     height: 100%;
     padding: 10px;
 }
 .projects{
     position:  relative;
-width: 101%;
-margin-left: -7px;
+width: 100%;
+
     height: 100%;
     padding: 10px;
 }
 .contact{
     position: relative;
-width: 101%;
-margin-left: -7px;
+width: 100%;
+margin-left: -8px;
     height: 100%;
     color: white;
     background: black;
@@ -130,4 +130,18 @@ margin-left: -7px;
 }
 img{
     border-radius: 5px;
+}
+.contactList li{
+  list-style: none;
+  display: inline;
+  padding-left: 5px;
+
+}
+.contactList{
+  margin-left: -3.3%;
+}
+
+.b{
+  color: white;
+  text-decoration: none;
 }
