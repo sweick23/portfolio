@@ -4,7 +4,7 @@
 
 body{
 
-    max-width: 1440px;
+    max-width: 1500px;
     background: #DDD;
     font-family: sans-serif;
     transition: background-color .5s;
@@ -56,18 +56,19 @@ body{
 }
 
 #main{
-  max-width: 1440px;
+  width: 1440px;
     transition: margin-left .5s;
+    position: absolute;
 }
 .space{
     padding: 7.3%;
 }
-header{
+.header{
 
     margin-top: -15px;
     padding: 69px;
 
-    margin-left: -7px;
+
     width: 100%;
     height: 101%;
     background: url(https://cdn.pixabay.com/photo/2015/03/26/22/04/city-skyline-693493_1280.jpg) no-repeat;
@@ -93,7 +94,7 @@ h1{
 }
 
 .aboutMe{
-
+position: relative;
 width: 101%;
 margin-left: -7px;
     height: 100%;
@@ -107,7 +108,7 @@ margin-left: -7px;
     padding: 10px;
 }
 .projects{
-    position: relative;
+    position:  relative;
 width: 101%;
 margin-left: -7px;
     height: 100%;
