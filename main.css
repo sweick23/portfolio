@@ -93,6 +93,10 @@ h1{
     text-decoration: none;
 }
 
+.down:hover{
+        font-size: 50px;
+}
+
 .aboutMe{
 position: relative;
 width: 100%;
